@@ -2,14 +2,12 @@
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 
 .noto-serif-font {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -20,11 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 150px 120px;
-}
-
-.navimg {
-    width: 100%;
+    margin: 0 150px;
 }
 
 .navul {
@@ -37,7 +31,7 @@
 
 .navlink {
     text-decoration: none;
-    padding-right: 48px;
+    padding-left: 48px;
     color: black;
 }
 
@@ -55,7 +49,6 @@
 
 #navlist4 {
     display: flex;
-    align-items: center;
 }
 
 #navlist4 span {
@@ -63,18 +56,82 @@
 }
 
 /* banner */
-
-
-
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 120px;
+    margin: 0 150px;
+}
+.banner-content {
+    width: 50%;
+    margin-top: 160px;
+}
+.bannerhead {
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner span {
+    color: #E95A08;
+}
+.bannertxt {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+.banner-img {
+    width: 100%;
+}
 /* plants section */
-
 
 /* plants lover section */
 
-
 /* Latest deals section */
-
 
 /* join section */
 
 /* footer section */
+
+
+/* responsive section  */
+@media screen and (max-width: 394px) {
+
+    #navlist1,
+    #navlist2,
+    #navlist3 {
+        display: none;
+    }
+
+    .navbar {
+        margin: 13px 16px 28px;
+    }
+
+    .navimg {
+        width: 63px;
+        height: 38px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        align-items: normal;
+        margin: 0px;
+    }
+
+    .banner-content {
+        width: 100%;
+        margin:0px ;
+    }
+
+    .bannerhead {
+        font-size: 24px;
+    }
+
+    .bannertxt {
+        font-size: 14px;
+        
+    }
+
+    .banner-img {
+        width: 100%;
+        margin: 0px ;
+    }
+}
