@@ -108,6 +108,15 @@ padding: 20px 80px;
 border-style: none;}
 
 /* plants lover section */
+.plantslover{display: flex;
+    gap: 60px;
+    margin: 210px 150px 0px;}
+.plantslover-img{width: 100%;}
+.plantslover-content{}
+.plantslover-head{font-size: 50px;
+font-weight: bold;}
+.plantslover-txt {font-size: 22px;
+color: rgba(0, 0, 0, 0.5);}
 
 /* Latest deals section */
 
@@ -175,4 +184,13 @@ gap: 20px;}
 font-size: 16px;
 padding: 19px 30px;}
 
+.plantslover{
+    flex-direction: column;
+    gap: 18px;
+    margin: 41px 6px 18px;}
+.plantslover-img{ width: 100%;}
+.plantslover-content{}
+.plantslover-head{font-size: 24px;}
+.plantslover-txt {font-size: 13px;}
 }
+/* Latest deals section */
